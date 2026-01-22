@@ -1,56 +1,73 @@
-# Super Store Sales Analysis (Power BI Project)
+# Super Store Sales Analysis using Power BI
 
-## Project Overview
-This project focuses on analyzing **Super Store sales data** using **Microsoft Power BI**.  
-The objective is to gain meaningful business insights related to **sales performance, profit trends, customer segments, and regional analysis**.
+## Project Description
+The **Super Store Sales Analysis** project is a **Business Intelligence dashboard** developed using **Microsoft Power BI**.  
+The project analyzes historical sales data of a retail super store to uncover **sales performance, profit trends, customer behavior, and regional insights**.
 
-The project includes:
-- Raw sales dataset (CSV)
-- Interactive Power BI dashboard (`.pbix`)
+This project demonstrates how raw sales data can be transformed into **interactive dashboards** to support **data-driven decision making**.
 
 ---
 
-## Tools & Technologies Used
-- **Microsoft Power BI**
-- **Power Query**
+## Project Objectives
+- Analyze overall **sales and profit performance**
+- Identify **top-performing regions and categories**
+- Understand **customer segment behavior**
+- Track **sales and profit trends over time**
+- Build an **interactive and user-friendly dashboard**
+
+---
+
+## Tools & Technologies
+- **Microsoft Power BI Desktop**
+- **Power Query** (Data Cleaning & Transformation)
 - **DAX (Data Analysis Expressions)**
 - **CSV Dataset**
 
 ---
 
-## Project Files
-| File Name | Description |
-|---------|------------|
-| `SuperStore_Sales_Dataset.csv` | Raw sales data |
-| `Super_store.pbix` | Power BI dashboard file |
-| `README.md` | Project documentation |
+## Data Cleaning & Preparation
+Data preprocessing was done using **Power Query**, including:
+- Removing duplicates  
+- Handling missing values  
+- Converting data types  
+- Creating calculated columns  
+- Filtering irrelevant data  
 
 ---
 
-## Dataset Description
-The dataset contains Super Store sales information such as:
-- Order Date  
-- Customer Segment  
-- Region & Category  
-- Sales  
-- Profit  
-- Quantity  
+## Data Modeling
+- Relationships created between tables (if applicable)
+- Date hierarchy used for time-based analysis
+- Measures created using **DAX**
+
+### Sample DAX Measures:
+- Total Sales  
+- Total Profit  
+- Profit Margin  
+- Sales Growth  
 
 ---
 
-## Dashboard Features
-- Total Sales & Profit overview  
-- Sales and Profit by Region  
-- Category & Sub-category analysis  
-- Customer Segment performance  
-- Trend analysis using charts and KPIs  
+## Dashboard Overview
+The Power BI dashboard includes:
+
+### KPIs
+- Total Sales  
+- Total Profit  
+- Total Orders  
+- Profit Margin  
+
+### Visualizations
+- Sales & Profit by Region  
+- Category & Sub-Category performance  
+- Monthly and yearly sales trends  
+- Customer Segment analysis  
+- Top-performing products  
+
+### Interactivity
+- Slicers for Region, Category, Segment, and Date  
+- Drill-down and cross-filtering  
+- Dynamic visuals  
 
 ---
 
-## Data Processing Steps
-- Data loading using Power Query  
-- Data cleaning and transformation  
-- Handling missing and inconsistent values  
-- Creating calculated columns and measures using DAX  
-
----
